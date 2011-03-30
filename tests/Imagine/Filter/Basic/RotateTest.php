@@ -13,6 +13,9 @@ namespace Imagine\Filter\Basic;
 
 use Imagine\Filter\FilterTestCase;
 
+/**
+ * @group unit
+ */
 class RotateTest extends FilterTestCase
 {
     public function testShouldRotateImageAndReturnResult()

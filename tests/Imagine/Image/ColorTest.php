@@ -11,6 +11,9 @@
 
 namespace Imagine\Image;
 
+/**
+ * @group unit
+ */
 class ColorTest extends \PHPUnit_Framework_TestCase
 {
     /**

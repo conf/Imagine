@@ -2,6 +2,9 @@
 
 namespace Imagine\Image\Histogram;
 
+/**
+ * @group unit
+ */
 class RangeTest extends \PHPUnit_Framework_TestCase
 {
     private $start = 0;

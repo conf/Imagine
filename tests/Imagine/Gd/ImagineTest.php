@@ -14,6 +14,9 @@ namespace Imagine\Gd;
 use Imagine\AbstractImagineTest;
 use Imagine\Image\Box;
 
+/**
+ * @group gd
+ */
 class ImagineTest extends AbstractImagineTest
 {
     protected function setUp()

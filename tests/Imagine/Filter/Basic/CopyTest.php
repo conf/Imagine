@@ -13,6 +13,9 @@ namespace Imagine\Filter\Basic;
 
 use Imagine\Filter\FilterTestCase;
 
+/**
+ * @group unit
+ */
 class CopyTest extends FilterTestCase
 {
     public function testShouldCopyAndReturnResultingImage()

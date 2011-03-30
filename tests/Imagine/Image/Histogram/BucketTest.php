@@ -2,6 +2,9 @@
 
 namespace Imagine\Image\Histogram;
 
+/**
+ * @group unit
+ */
 class BucketTest extends \PHPUnit_Framework_TestCase
 {
     private $bucket;

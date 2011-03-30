@@ -16,6 +16,9 @@ use Imagine\Image\Color;
 use Imagine\Image\Point;
 use Imagine\ImageInterface;
 
+/**
+ * @group unit
+ */
 class TransformationTest extends FilterTestCase
 {
     public function testSimpleStack()

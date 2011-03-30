@@ -13,6 +13,9 @@ namespace Imagine\Imagick;
 
 use Imagine\Draw\AbstractDrawerTest;
 
+/**
+ * @group imagick
+ */
 class DrawerTest extends AbstractDrawerTest
 {
     protected function setUp()

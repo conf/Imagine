@@ -15,6 +15,9 @@ use Imagine\Image\Box;
 use Imagine\ImageInterface;
 use Imagine\Filter\FilterTestCase;
 
+/**
+ * @group unit
+ */
 class ThumbnailTest extends FilterTestCase
 {
     public function testShouldMakeAThumbnail()

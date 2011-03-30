@@ -14,6 +14,9 @@ namespace Imagine\Imagick;
 use Imagine\AbstractImagineTest;
 use Imagine\Image\Box;
 
+/**
+ * @group imagick
+ */
 class ImagineTest extends AbstractImagineTest
 {
     protected function setUp()
