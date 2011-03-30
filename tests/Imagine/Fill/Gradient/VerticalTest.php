@@ -12,6 +12,9 @@ namespace Imagine\Fill\Gradient;
 use Imagine\Image\Color;
 use Imagine\Image\Point;
 
+/**
+ * @group unit
+ */
 class VerticalTest extends LinearTest
 {
     /**

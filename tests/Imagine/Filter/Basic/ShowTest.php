@@ -13,6 +13,9 @@ namespace Imagine\Filter\Basic;
 
 use Imagine\Filter\FilterTestCase;
 
+/**
+ * @group unit
+ */
 class ShowTest extends FilterTestCase
 {
     public function testShouldShowImageAndReturnResult()

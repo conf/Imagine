@@ -15,6 +15,9 @@ use Imagine\Image\Box;
 use Imagine\Image\BoxInterface;
 use Imagine\Filter\FilterTestCase;
 
+/**
+ * @group unit
+ */
 class ResizeTest extends FilterTestCase
 {
     /**

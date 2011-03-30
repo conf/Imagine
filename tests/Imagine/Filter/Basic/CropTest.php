@@ -17,6 +17,9 @@ use Imagine\Image\Point;
 use Imagine\Image\PointInterface;
 use Imagine\Filter\FilterTestCase;
 
+/**
+ * @group unit
+ */
 class CropTest extends FilterTestCase
 {
     /**

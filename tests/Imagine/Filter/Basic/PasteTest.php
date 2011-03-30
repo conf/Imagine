@@ -14,6 +14,9 @@ namespace Imagine\Filter\Basic;
 use Imagine\Image\Point;
 use Imagine\Filter\FilterTestCase;
 
+/**
+ * @group unit
+ */
 class PasteTest extends FilterTestCase
 {
     public function testShouldFlipImage()

@@ -13,6 +13,9 @@ namespace Imagine\Filter\Basic;
 
 use Imagine\Filter\FilterTestCase;
 
+/**
+ * @group unit
+ */
 class FlipVerticallyTest extends FilterTestCase
 {
     public function testShouldFlipImage()

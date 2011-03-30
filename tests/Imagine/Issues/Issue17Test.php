@@ -7,6 +7,9 @@ use Imagine\Image\Box;
 use Imagine\Gd\Imagine;
 use Imagine\Exception\RuntimeException;
 
+/**
+ * @group gd
+ */
 class Issue17Test extends \PHPUnit_Framework_TestCase
 {
     private function getImagine()

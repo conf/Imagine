@@ -15,6 +15,9 @@ use Imagine\AbstractImageTest;
 use Imagine\Image\Color;
 use Imagine\ImageInterface;
 
+/**
+ * @group gmagick
+ */
 class ImageTest extends AbstractImageTest
 {
     protected function setUp()

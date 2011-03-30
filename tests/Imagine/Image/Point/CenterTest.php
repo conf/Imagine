@@ -16,6 +16,9 @@ use Imagine\Image\PointInterface;
 use Imagine\Image\Box;
 use Imagine\Image\BoxInterface;
 
+/**
+ * @group unit
+ */
 class CenterTest extends \PHPUnit_Framework_TestCase
 {
     /**
