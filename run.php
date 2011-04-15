@@ -1,8 +1,16 @@
 <?php
 chdir(__DIR__);
 
-define("PHP_PATH", '$(which php)');
-define("PHPUNIT_PATH", '$(which phpunit)');
+define('PHP_PATH', 'php');
+
+if (DIRECTORY_SEPARATOR == '\\') {
+    if ($dir = getenv('PHP_PEAR_BIN_DIR')) {
+        $dir = rtrim($dir, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR;
+    }
+    define('PHPUNIT_PATH', $dir . 'phpunit');
+} else {
+    define('PHPUNIT_PATH', '$(which phpunit)');
+}
 
 $extensions = array(
     'gd',
